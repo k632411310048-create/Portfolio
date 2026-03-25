@@ -6,7 +6,7 @@
   <title>My Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -61,7 +61,7 @@
         </div>
         <div class="about-right">
           <div class="avatar-frame">
-            <!-- Thay bằng ảnh thật: <img src="{{ url_for('static', filename='avatar.jpg') }}" alt="avatar"> -->
+            <!-- Thay avatar.jpg bằng ảnh thật của bạn, đặt cùng thư mục -->
             <div class="avatar-placeholder">
               <svg viewBox="0 0 100 100" fill="none">
                 <circle cx="50" cy="35" r="20" fill="var(--accent)"/>
@@ -159,6 +159,6 @@
 
   </main>
 
-  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <script src="script.js"></script>
 </body>
 </html>
